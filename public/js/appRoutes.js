@@ -8,14 +8,14 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'MainController'
 		})
 
-		.when('/nerds', {
-			templateUrl: 'views/nerd.html',
-			controller: 'NerdController'
+		.when('/tab1', {
+			templateUrl: 'views/tab1.html',
+			controller: 'Tab1Controller'
 		})
 
-		.when('/geeks', {
-			templateUrl: 'views/geek.html',
-			controller: 'GeekController'	
+		.when('/tab2', {
+			templateUrl: 'views/tab2.html',
+			controller: 'Tab2Controller'	
 		});
 
 	$locationProvider.html5Mode(true);
